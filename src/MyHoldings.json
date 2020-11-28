@@ -7,7 +7,7 @@
 			"Postion" : "Hold Stock",
 			"Quantity" : "52 kitta",
 			"Note" : "Hold a long Postion",
-			"Buy" : "Rs-642",
+			"Buy" : "Rs-642"
 		
 
 		},
@@ -74,10 +74,10 @@
 			"Date" : "2020/NOV/11",
 			"Postion" : "Hold Stock",
 			"Quantity" : "30 kitta",
-			"Note" : "Long holding due to loss in bought price  ",
+			"Note" : "Long holding due to loss in bought price",
 			"Buy" : "Rs-188",
-			"sold":"Watch Me "
-		},
+			"sold":"Watch Me"
+		}
 
 	]
 
