@@ -1,0 +1,42 @@
+
+{
+	"Holdings" : [
+		{
+			"Name" : "NHPC",
+			"Date" : "18th Nov",
+			"Postion" : "Keep Stock",
+			"Quantity" : "20 kitta",
+			"Note" : "yep first special",
+			"Buy" : "Rs-113",
+			"sold" : "Sold"
+
+		},
+		{
+			"Name" : "AKPL",
+			"Date" : "18th Nov",
+			"Postion" : "Sell stock",
+			"Quantity" : "20 kitta",
+			"Note" : "yep first special",
+			"Buy" : "Rs-117"
+
+		},
+		{
+			"Name" : "SHL",
+			"Date" : "18th Nov",
+			"Postion" : "Keep stock",
+			"Quantity" : "20 kitta",
+			"Note" : "yep first special",
+			"Buy" : "Rs-117"
+		},
+		{
+			"Name" : "NBB",
+			"Date" : "18th Nov",
+			"Postion" : "Sell Stock",
+			"Quantity" : "20 kitta",
+			"Note" : "yep first special",
+			"Buy" : "Rs-117"
+		}
+	]
+
+	
+}
