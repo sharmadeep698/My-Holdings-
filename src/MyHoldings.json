@@ -5,9 +5,10 @@
 			"Name" : "EBL",
 			"Date" : "2018/OCT/08",
 			"Postion" : "Hold Stock",
-			"Quantity" : "52 kitta",
+			"Quantity" : "kitta = 52 ",
 			"Note" : "Hold a long Postion",
 			"Buy" : "Rs-642"
+
 		
 
 		},
@@ -15,7 +16,7 @@
 			"Name" : "BOKL",
 			"Date" : "2018/AUG/12",
 			"Postion" : "Hold stock",
-			"Quantity" : "30 kitta",
+			"Quantity" : "kitta = 30",
 			"Note" : "It is about to grow more ",
 			"Buy" : "Rs-266"
 
@@ -24,15 +25,15 @@
 			"Name" : "MBL",
 			"Date" : "2019/April/09",
 			"Postion" : "Sell stock",
-			"Quantity" : "78 kitta",
+			"Quantity" : "kitta = 78 ",
 			"Note" : "Will increase keep your eyes on Me ",
 			"Buy" : "Rs-117"
 		},
 		{
 			"Name" : "MEGA",
 			"Date" : "2018/July/12",
-			"Postion" : "Sell Stock",
-			"Quantity" : "25 kitta",
+			"Postion" : "Sell Stock ",
+			"Quantity" : "kitta = 25",
 			"Note" : "Will increase keep your eyes",
 			"Buy" : "Rs-172"
 		},
@@ -40,23 +41,23 @@
 			"Name" : "SCB",
 			"Date" : "Watch List ",
 			"Postion" : "Buy Stock",
-			"Quantity" : "Anything above 10K",
-			"Note" : "Take risk but do Watch it ",
+			"Quantity" : "See and Buy 0",
+			"Note" : "Take risk but do Watch it Anything",
 			"Buy" : "Rs-698"
 		},
 		{
 			"Name" : "SANIMA",
 			"Date" : "Watch List ",
 			"Postion" : "Buy Stock",
-			"Quantity" : "Anything above 10K",
-			"Note" : "Take risk but do Watch it ",
+			"Quantity" : "See and Buy 0",
+			"Note" : "Take risk but do Watch it ; Anything above 10K",
 			"Buy" : "Rs-321"
 		},
 		{
 			"Name" : "NBB",
 			"Date" : "Watch List ",
 			"Postion" : "Sell Stock",
-			"Quantity" : "30 kitta",
+			"Quantity" : "kitta = 30",
 			"Note" : "Its overbought see and sell ",
 			"Buy" : "Rs-243"
 		},
@@ -64,7 +65,7 @@
 			"Name" : "NHPC",
 			"Date" : "2020/NOV/09",
 			"Postion" : "Sell Stock",
-			"Quantity" : "40 kitta",
+			"Quantity" : "kitta = 40",
 			"Note" : "Sold with good move ",
 			"Buy" : "Rs-278",
 			"sold":"sold"
@@ -73,7 +74,7 @@
 			"Name" : "UMHL",
 			"Date" : "2020/NOV/11",
 			"Postion" : "Hold Stock",
-			"Quantity" : "30 kitta",
+			"Quantity" : " kitta = 30",
 			"Note" : "Long holding due to loss in bought price",
 			"Buy" : "Rs-188",
 			"sold":"Watch Me"

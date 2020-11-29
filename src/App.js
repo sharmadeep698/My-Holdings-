@@ -6,6 +6,7 @@ function App() {
     <div>
     <h1 className="Title">My-Holdings </h1>
      <CardHoldings/>
+
     </div>
   );
 }
