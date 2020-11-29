@@ -1,10 +1,9 @@
-import React,{useState} from "react"
+import React from "react"
 
 import Myholdings from "./MyHoldings.json"
 const {Holdings} = Myholdings
 
 const CardHolding = () =>{
-  const [total,Settotal] = useState()
   const callBorder = (data) =>{
 
     var buyedPrice = (data.Buy).replace( /^\D+/g,'')
