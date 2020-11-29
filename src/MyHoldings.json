@@ -78,6 +78,31 @@
 			"Note" : "Long holding due to loss in bought price",
 			"Buy" : "Rs-188",
 			"sold":"Watch Me"
+		},
+		{
+			"Name" : "HDHPC",
+			"Date" : "2020/NOV/29",
+			"Postion" : "Hold Stock",
+			"Quantity" : " kitta = 70",
+			"Note" : "Long holding due to loss in bought price",
+			"Buy" : "Rs-153",
+			"sold":"Watch Me"
+		},
+		{
+			"Name" : "NBB",
+			"Date" : "2020/NOV/24",
+			"Postion" : "Sell Stock",
+			"Quantity" : " kitta = 30",
+			"Note" : "Its getting OverBought",
+			"Buy" : "Rs-243"
+		},
+		{
+			"Name" : "SCB",
+			"Date" : "2020/NOV/29",
+			"Postion" : "Sell Stock",
+			"Quantity" : " kitta = 20",
+			"Note" : "Its getting OverBought",
+			"Buy" : "Rs-681"
 		}
 
 	]

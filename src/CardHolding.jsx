@@ -8,6 +8,8 @@ const CardHolding = () =>{
 
     var buyedPrice = (data.Buy).replace( /^\D+/g,'')
     var kitta = (data.Quantity).replace( /^\D+/g,'')
+    
+   
     if (data.sold === "sold"){
       
     }else {
@@ -25,7 +27,8 @@ const CardHolding = () =>{
       <div className="row">
        
           {Holdings.map((data,i)=>{
-
+               var position = (data.Postion).toLowerCase().replace(/\s/g, '');
+               
             return( 
                <div className="col-md-4 " key={i}>
                <div className="card mb-4 shadow-sm">
@@ -43,7 +46,14 @@ const CardHolding = () =>{
 
                <div className="d-flex justify-content-between align-items-center">
                  <div className="btn-group">
-                   <button type="button" className="btn btn-sm btn-outline-secondary">{data.Postion}</button>
+                 {(position==="sellstock") ? 
+                   <button type="button" className="btn btn-sm btn-outline-secondary" style={{color:"green"}}>{data.Postion}</button>
+
+                 :
+                          <button type="button" className="btn btn-sm btn-outline-secondary">{data.Postion}</button>
+
+                 
+               }
                    {(data.sold) ?
                     <button type="button" className="btn btn-sm btn-outline-secondary" style={{color:"Red",borderStyle:"solid",borderColor:"red"} }>{data.sold}</button> : null
                   }
