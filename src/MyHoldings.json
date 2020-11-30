@@ -4,9 +4,9 @@
 		{
 			"Name" : "EBL",
 			"Date" : "2018/OCT/08",
-			"Postion" : "Hold Stock",
+			"Postion" : "sell Stock",
 			"Quantity" : "kitta = 52 ",
-			"Note" : "Hold a long Postion",
+			"Note" : "Hold a long Postion , watch it  this might go up",
 			"Buy" : "Rs-642"
 
 		
@@ -17,14 +17,16 @@
 			"Date" : "2018/AUG/12",
 			"Postion" : "Hold stock",
 			"Quantity" : "kitta = 30",
-			"Note" : "It is about to grow more ",
-			"Buy" : "Rs-266"
+			"Note" : "It is about to grow more ; ",
+			"Buy" : "Rs-266",
+			"sold":"Watch Me"
+
 
 		},
 		{
 			"Name" : "MBL",
 			"Date" : "2019/April/09",
-			"Postion" : "Sell stock",
+			"Postion" : "Sell Stock",
 			"Quantity" : "kitta = 78 ",
 			"Note" : "Will increase keep your eyes on Me ",
 			"Buy" : "Rs-117"
@@ -32,33 +34,19 @@
 		{
 			"Name" : "MEGA",
 			"Date" : "2018/July/12",
-			"Postion" : "Sell Stock ",
+			"Postion" : "Sell Stock",
 			"Quantity" : "kitta = 25",
 			"Note" : "Will increase keep your eyes",
 			"Buy" : "Rs-172"
 		},
-		{
-			"Name" : "SCB",
-			"Date" : "Watch List ",
-			"Postion" : "Buy Stock",
-			"Quantity" : "See and Buy 0",
-			"Note" : "Take risk but do Watch it Anything",
-			"Buy" : "Rs-698"
-		},
-		{
-			"Name" : "SANIMA",
-			"Date" : "Watch List ",
-			"Postion" : "Buy Stock",
-			"Quantity" : "See and Buy 0",
-			"Note" : "Take risk but do Watch it ; Anything above 10K",
-			"Buy" : "Rs-321"
-		},
+		
+		
 		{
 			"Name" : "NBB",
 			"Date" : "Watch List ",
 			"Postion" : "Sell Stock",
 			"Quantity" : "kitta = 30",
-			"Note" : "Its overbought see and sell ",
+			"Note" : "It's overbought see and sell ",
 			"Buy" : "Rs-243"
 		},
 		{
@@ -67,15 +55,16 @@
 			"Postion" : "Sell Stock",
 			"Quantity" : "kitta = 40",
 			"Note" : "Sold with good move ",
-			"Buy" : "Rs-278",
-			"sold":"sold"
+			"Buy" : "Rs-116",
+			"sold":"sold",
+			"soldPrice" : "RS-132"
 		},
 		{
 			"Name" : "UMHL",
 			"Date" : "2020/NOV/11",
 			"Postion" : "Hold Stock",
 			"Quantity" : " kitta = 30",
-			"Note" : "Long holding due to loss in bought price",
+			"Note" : "stock is gaining back my invested volumne ",
 			"Buy" : "Rs-188",
 			"sold":"Watch Me"
 		},
@@ -84,16 +73,16 @@
 			"Date" : "2020/NOV/29",
 			"Postion" : "Hold Stock",
 			"Quantity" : " kitta = 70",
-			"Note" : "Long holding due to loss in bought price",
-			"Buy" : "Rs-153",
-			"sold":"Watch Me"
+			"Note" : "Market has been able to regain its strength",
+			"Buy" : "Rs-153"
+			
 		},
 		{
 			"Name" : "NBB",
 			"Date" : "2020/NOV/24",
 			"Postion" : "Sell Stock",
 			"Quantity" : " kitta = 30",
-			"Note" : "Its getting OverBought",
+			"Note" : "its in over bought regions with no sign of downward trend",
 			"Buy" : "Rs-243"
 		},
 		{
@@ -103,7 +92,17 @@
 			"Quantity" : " kitta = 20",
 			"Note" : "Its getting OverBought",
 			"Buy" : "Rs-681"
+		},
+		{
+			"Name" : "SBI",
+			"Date" : "2020/NOV/29",
+			"Postion" : "Buy Stock",
+			"Quantity" : " kitta = 20",
+			"Note" : "Hold long postion due to the loss in bought price ",
+			"Buy" : "Rs-517",
+			"sold":"Watch and Buy"
 		}
+
 
 	]
 

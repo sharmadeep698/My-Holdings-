@@ -8,12 +8,20 @@ const CardHolding = () =>{
 
     var buyedPrice = (data.Buy).replace( /^\D+/g,'')
     var kitta = (data.Quantity).replace( /^\D+/g,'')
-    
+    var FinalTotal = buyedPrice * kitta
    
     if (data.sold === "sold"){
-      
+         var SoldPriceNum = (data.soldPrice).replace( /^\D+/g,'')
+        var SoldTotal = SoldPriceNum * kitta
+        var Profit = SoldTotal - FinalTotal 
+
+      return(<span>
+          {FinalTotal.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+           <p className="card-text" style={{color:"green"}}>Total Sold price  = Rs {SoldTotal.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} </p>
+         <p className="card-text">Total profit = Rs {Profit.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} </p>
+      </span>
+       )
     }else {
-       var FinalTotal = buyedPrice * kitta
        return(FinalTotal.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
     }
    
@@ -55,7 +63,11 @@ const CardHolding = () =>{
                  
                }
                    {(data.sold) ?
-                    <button type="button" className="btn btn-sm btn-outline-secondary" style={{color:"Red",borderStyle:"solid",borderColor:"red"} }>{data.sold}</button> : null
+                    
+
+                    <button type="button" className="btn btn-sm btn-outline-secondary" style={{color:"Red",borderStyle:"solid",borderColor:"red"} }>{data.sold}</button> 
+                    
+                    : null
                   }
 
                  
