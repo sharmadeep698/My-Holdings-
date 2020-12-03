@@ -29,7 +29,10 @@
 			"Postion" : "Sell Stock",
 			"Quantity" : "kitta = 78 ",
 			"Note" : "Will increase keep your eyes on Me ",
-			"Buy" : "Rs-117"
+			"Buy" : "Rs-227",
+			"sold" : "sold",
+			"soldPrice" : "Rs-250"
+
 		},
 		{
 			"Name" : "MEGA",
@@ -37,7 +40,9 @@
 			"Postion" : "Sell Stock",
 			"Quantity" : "kitta = 25",
 			"Note" : "Will increase keep your eyes",
-			"Buy" : "Rs-172"
+			"Buy" : "Rs-172",
+			"sold" : "sold",
+			"soldPrice" : "Rs-274"
 		},
 		
 		
@@ -77,14 +82,7 @@
 			"Buy" : "Rs-153"
 			
 		},
-		{
-			"Name" : "NBB",
-			"Date" : "2020/NOV/24",
-			"Postion" : "Sell Stock",
-			"Quantity" : " kitta = 30",
-			"Note" : "its in over bought regions with no sign of downward trend",
-			"Buy" : "Rs-243"
-		},
+		
 		{
 			"Name" : "SCB",
 			"Date" : "2020/NOV/29",
@@ -97,9 +95,18 @@
 			"Name" : "SBI",
 			"Date" : "2020/NOV/29",
 			"Postion" : "Buy Stock",
-			"Quantity" : " kitta = 20",
+			"Quantity" : " kitta = 127",
 			"Note" : "Hold long postion due to the loss in bought price ",
 			"Buy" : "Rs-517",
+			"sold":"Watch Me"
+		},
+		{
+			"Name" : "UPCL",
+			"Date" : "2020/Dec/03",
+			"Postion" : "Buy Stock",
+			"Quantity" : " kitta = 65",
+			"Note" : "3 indications of buy signal ",
+			"Buy" : "Rs-146",
 			"sold":"Watch and Buy"
 		}
 
