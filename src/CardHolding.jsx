@@ -38,11 +38,14 @@ const CardHolding = (props) =>{
 
       <div className="row">
        
-          {Holdings.map((data,i)=>{
-               var position = (data.Postion).toLowerCase().replace(/\s/g, '');
+          {Holdings.map((data,i)=>{ 
+          var position = (data.Postion).toLowerCase().replace(/\s/g, '');
+            if  (position==="sellstock"){
+                            return(null)
 
-               
-            return( 
+            
+            }else if (position !=="sellstock"){
+              return( 
                <div className="col-md-4 " key={i}>
                <div className="card mb-4 shadow-sm">
               <div>
@@ -77,6 +80,8 @@ const CardHolding = (props) =>{
         </div>
 
             )
+            }
+             
           })}
            
             
@@ -105,9 +110,8 @@ const CardHolding = (props) =>{
        
           {Holdings.map((data,i)=>{
                var position = (data.Postion).toLowerCase().replace(/\s/g, '');
-
-               
-            return( 
+  if (position==="sellstock"){
+    return( 
                <div className="col-md-4 " key={i}>
                <div className="card mb-4 shadow-sm">
               <div>
@@ -152,6 +156,11 @@ const CardHolding = (props) =>{
         </div>
 
             )
+
+  }else{
+    return(null)
+  }               
+            
           })}
            
             
