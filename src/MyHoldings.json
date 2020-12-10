@@ -78,7 +78,7 @@
 			"Date" : "2020/NOV/29",
 			"Postion" : "Hold Stock",
 			"Quantity" : " kitta = 70",
-			"Note" : "Market has been able to regain its strength",
+			"Note" : "Market has been able to regain its strength ; volumne is also in support ",
 			"Buy" : "Rs-153"
 			
 		},
@@ -103,12 +103,22 @@
 		{
 			"Name" : "UPCL",
 			"Date" : "2020/Dec/03",
-			"Postion" : "Buy Stock",
+			"Postion" : "Hold Stock",
 			"Quantity" : " kitta = 65",
-			"Note" : "3 indications of buy signal ",
-			"Buy" : "Rs-146",
-			"sold":"Watch and Buy"
+			"Note" : "stock is trying to regain its value ",
+			"Buy" : "Rs-147"
+			
+		},
+		{
+			"Name" : "AHPC",
+			"Date" : "2020/Dec/10",
+			"Postion" : "Hold Stock",
+			"Quantity" : " kitta = 100",
+			"Note" : "All the indications to buy ",
+			"Buy" : "Rs-260"
+			
 		}
+		
 
 
 	]

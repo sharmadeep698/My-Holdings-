@@ -1,7 +1,4 @@
-import react from "react";
 import CardHolding from "./CardHolding.jsx"
-import Myholdings from "./MyHoldings.json"
-const {Holdings} = Myholdings
 
 
 const SoldPage = () =>{

@@ -18,6 +18,8 @@ const CardHolding = (props) =>{
 
       return(<span>
           {FinalTotal.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+             <p className="card-text" style={{color:"green"}}> Sold price  = Rs {SoldPriceNum} </p>
+
            <p className="card-text" style={{color:"green"}}>Total Sold price  = Rs {SoldTotal.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} </p>
          <p className="card-text">Total profit = Rs {Profit.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} </p>
       </span>
@@ -40,11 +42,11 @@ const CardHolding = (props) =>{
        
           {Holdings.map((data,i)=>{ 
           var position = (data.Postion).toLowerCase().replace(/\s/g, '');
-            if  (position==="sellstock"){
+             if  (position==="sellstock"){
                             return(null)
 
             
-            }else if (position !=="sellstock"){
+            }  if (position !=="sellstock"){
               return( 
                <div className="col-md-4 " key={i}>
                <div className="card mb-4 shadow-sm">
